@@ -1,0 +1,83 @@
+
+{
+  "pages": [
+    {
+      "path": "pages/home",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/live/index",
+      "style": {
+        "navigationBarTitleText": "直播列表",
+        "enablePullDownRefresh": true
+        // "usingComponents":{
+        //   "subscribe": "plugin-private://wx2b03c6e691cd7370/components/subscribe/subscribe"
+        // }
+      }
+    }, {
+      "path": "pages/goods/cart",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    }, {
+      "path": "pages/address/index",
+      "style": {
+        "navigationBarTitleText": "地址管理"
+      }
+    }, {
+      "path": "pages/address/editAddress",
+      "style": {
+        "navigationBarTitleText": "添加地址"
+      }
+    }, {
+      "path": "pages/order/index",
+      "style": {
+        "navigationBarTitleText": "订单",
+        "enablePullDownRefresh":true
+      }
+    }, {
+      "path": "pages/order/placeOrder",
+      "style": {
+        "navigationBarTitleText": "确认下单"
+      }
+    }, {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    }, {
+      "path": "pages/order/payResult",
+      "style": {
+        "navigationBarTitleText": "支付完成"
+      }
+    }, {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }, {
+      "path": "pages/user/subscribe",
+      "style": {
+        "navigationBarTitleText": "我的订阅"
+      }
+    }, {
+    "path": "pages/goods/detail",
+    "style": {
+      "navigationBarTitleText": "商品详情"
+    }
+  }
+  ],
+  "globalStyle": {
+    "onReachBottomDistance": 50,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}
