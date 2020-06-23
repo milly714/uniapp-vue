@@ -1,4 +1,4 @@
-<<template>
+<template>
     <div class="service-modal">
         <div class="modal-box">
             <p>{{preTitle}}<br/>{{nextTitle}}~</p>
